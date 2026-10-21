@@ -30,7 +30,7 @@
       <div class="rocket-ring ring-one"></div>
       <div class="rocket-ring ring-two"></div>
       <div class="rocket-glow"></div>
-      <svg class="rocket" viewBox="0 0 100 130" xmlns="http://www.w3.org/2000/svg">
+      <svg class="rocket" viewBox="0 0 100 130" xmlns="http://www.w3.org/2000/svg" aria-label="Rocket">
         <defs>
           <linearGradient id="rocketBody" x1="0" y1="0" x2="1" y2="1">
             <stop offset="0%" stop-color="#ffffff"/>
@@ -90,7 +90,10 @@
   <main class="container">
 
     <section class="hero">
-      <div class="eyebrow"><span class="status-dot"></span> OFFICIAL LICENSE DOCUMENT</div>
+      <div class="eyebrow">
+        <span class="status-dot"></span>
+        OFFICIAL LICENSE DOCUMENT
+      </div>
 
       <h1>DELUXE<br><span>SHADERS</span></h1>
 
@@ -108,12 +111,15 @@
 
       <div class="hero-actions">
         <a class="back-button" href="https://deluxeshaders.blogspot.com/">
-          <span>Back To Home</span>
-          <span class="button-arrow">↗</span>
+          Back To Home
         </a>
       </div>
 
-      <div class="hero-decoration"><span></span><span></span><span></span></div>
+      <div class="hero-decoration">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     </section>
 
     <section class="license-section" id="license-terms">
@@ -124,47 +130,67 @@
       </div>
 
       <div class="license-grid">
+
         <article class="license-card">
-          <div class="card-top"><span class="card-icon">DS</span><span class="card-number">01 / OWNERSHIP</span></div>
+          <div class="card-top">
+            <span class="card-icon">DS</span>
+            <span class="card-number">01 / OWNERSHIP</span>
+          </div>
           <h3>Copyright Ownership</h3>
           <p>Original Deluxe Shaders materials remain the property of their respective copyright holders.</p>
           <div class="card-bottom"><span></span> ORIGINAL MATERIALS</div>
         </article>
 
         <article class="license-card">
-          <div class="card-top"><span class="card-icon">CN</span><span class="card-number">02 / COPYING</span></div>
+          <div class="card-top">
+            <span class="card-icon">CN</span>
+            <span class="card-number">02 / COPYING</span>
+          </div>
           <h3>No Unauthorized Copying</h3>
           <p>Do not copy, extract, reproduce, or reuse protected source code or files without the required permission.</p>
           <div class="card-bottom"><span></span> CODE PROTECTION</div>
         </article>
 
         <article class="license-card">
-          <div class="card-top"><span class="card-icon">SH</span><span class="card-number">03 / REMAKES</span></div>
+          <div class="card-top">
+            <span class="card-icon">SH</span>
+            <span class="card-number">03 / REMAKES</span>
+          </div>
           <h3>Shader Remakes</h3>
           <p>Do not use protected Deluxe Shaders code as the basis of another shader without authorization from its owner.</p>
           <div class="card-bottom"><span></span> ORIGINAL CODE ONLY</div>
         </article>
 
         <article class="license-card">
-          <div class="card-top"><span class="card-icon">RD</span><span class="card-number">04 / SHARING</span></div>
+          <div class="card-top">
+            <span class="card-icon">RD</span>
+            <span class="card-number">04 / SHARING</span>
+          </div>
           <h3>Redistribution</h3>
           <p>Do not reupload, resell, or redistribute protected materials as your own without permission.</p>
           <div class="card-bottom"><span></span> DISTRIBUTION RULES</div>
         </article>
 
         <article class="license-card">
-          <div class="card-top"><span class="card-icon">PU</span><span class="card-number">05 / PERSONAL USE</span></div>
+          <div class="card-top">
+            <span class="card-icon">PU</span>
+            <span class="card-number">05 / PERSONAL USE</span>
+          </div>
           <h3>Personal Use</h3>
           <p>Using an officially released shader does not grant ownership of its source code or other protected files.</p>
           <div class="card-bottom"><span></span> PERSONAL USE</div>
         </article>
 
         <article class="license-card">
-          <div class="card-top"><span class="card-icon">PR</span><span class="card-number">06 / PERMISSIONS</span></div>
+          <div class="card-top">
+            <span class="card-icon">PR</span>
+            <span class="card-number">06 / PERMISSIONS</span>
+          </div>
           <h3>Permission Required</h3>
           <p>Obtain written permission from the relevant rights holder before performing restricted uses of protected materials.</p>
           <div class="card-bottom"><span></span> WRITTEN AUTHORIZATION</div>
         </article>
+
       </div>
     </section>
 
@@ -173,24 +199,21 @@
       <div class="notice-content">
         <span class="section-kicker">IMPORTANT INFORMATION</span>
         <h2>Third-Party Materials</h2>
-        <p>Third-party code, textures, assets, and components remain subject to their respective licenses. This agreement applies only to materials Deluxe Shaders owns or is authorized to license.</p>
+        <p>
+          Third-party code, textures, assets, and components remain
+          subject to their respective licenses. This agreement applies
+          only to materials Deluxe Shaders owns or is authorized to license.
+        </p>
       </div>
-    </section>
-
-    <section class="contact-panel">
-      <span class="section-kicker">OFFICIAL WEBSITE</span>
-      <h2>Deluxe Shaders</h2>
-      <p>Visit our official website for information about our shader projects.</p>
-      <a class="back-button" href="https://deluxeshaders.blogspot.com/">
-        <span>Visit Official Website</span>
-        <span class="button-arrow">↗</span>
-      </a>
     </section>
 
     <footer class="site-footer">
       <div class="footer-line"></div>
       <div class="footer-brand">DELUXE SHADERS</div>
-      <p>© 2026 Deluxe Shaders. Rights in original materials remain with their respective copyright holders.</p>
+      <p>
+        © 2026 Deluxe Shaders. Rights in original materials remain
+        with their respective copyright holders.
+      </p>
       <span class="footer-version">OFFICIAL LICENSE · V1.0</span>
     </footer>
 
@@ -236,8 +259,7 @@
   function updateLoading(now) {
     if (startedAt === null) startedAt = now;
 
-    const elapsed = now - startedAt;
-    const progress = Math.min(elapsed / duration, 1);
+    const progress = Math.min((now - startedAt) / duration, 1);
     const eased = 1 - Math.pow(1 - progress, 3);
     const value = Math.round(eased * 100);
 
@@ -248,6 +270,7 @@
       Math.floor(progress * messages.length),
       messages.length - 1
     );
+
     status.textContent = messages[index];
 
     if (progress < 1) {
