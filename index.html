@@ -2,312 +2,265 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#020611">
-  <meta name="description" content="Official Deluxe Shaders license and protection terms.">
-  <title>Deluxe Shaders | Official License</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#020611">
+<meta name="description" content="Deluxe Shaders Official License">
+<title>DELUXE SHADERS | Official License</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <div class="background">
-    <div class="aurora"></div>
-    <div class="grid"></div>
-    <div class="stars"></div>
-    <div class="light-orb orb-one"></div>
-    <div class="light-orb orb-two"></div>
-    <div class="light-orb orb-three"></div>
-  </div>
+<div class="background">
+  <div class="aurora"></div>
+  <div class="grid"></div>
+  <div class="stars"></div>
+  <div class="orb orb-one"></div>
+  <div class="orb orb-two"></div>
+  <div class="orb orb-three"></div>
+</div>
 
-  <div class="loader-screen" id="loader">
-    <div class="loader-grid"></div>
-    <div class="loader-content">
-      <div class="rocket-stage">
-        <div class="rocket-ring ring-one"></div>
-        <div class="rocket-ring ring-two"></div>
-        <div class="rocket-glow"></div>
-        <svg class="rocket" viewBox="0 0 100 120" xmlns="http://www.w3.org/2000/svg" aria-label="Animated rocket">
-          <defs>
-            <linearGradient id="rocketBody" x1="0" y1="0" x2="1" y2="1">
-              <stop offset="0%" stop-color="#ffffff"/>
-              <stop offset="48%" stop-color="#a5d9ff"/>
-              <stop offset="100%" stop-color="#328dff"/>
-            </linearGradient>
-            <linearGradient id="rocketFin" x1="0" y1="0" x2="1" y2="1">
-              <stop offset="0%" stop-color="#36c5ff"/>
-              <stop offset="100%" stop-color="#0055ff"/>
-            </linearGradient>
-          </defs>
-          <path d="M50 5 C31 25 27 47 29 73 L71 73 C73 47 69 25 50 5Z" fill="url(#rocketBody)" stroke="#b9e6ff" stroke-width="1.5"/>
-          <path d="M50 5 C43 19 39 30 38 42 L62 42 C61 30 57 19 50 5Z" fill="#ffffff" opacity=".5"/>
-          <circle cx="50" cy="46" r="10" fill="#06162e" stroke="#42b8ff" stroke-width="3"/>
-          <circle cx="50" cy="46" r="5" fill="#58caff"/>
-          <path d="M30 59 C18 68 13 81 12 94 L31 80Z" fill="url(#rocketFin)"/>
-          <path d="M70 59 C82 68 87 81 88 94 L69 80Z" fill="url(#rocketFin)"/>
-          <path d="M38 75 L62 75 L60 91 L40 91Z" fill="#168bff"/>
-          <path d="M43 88 L50 111 L57 88Z" fill="#ffab45"/>
-          <path d="M46 89 L50 103 L54 89Z" fill="#fff4ad"/>
-          <path d="M21 90 L17 104 L28 97Z" fill="#35b8ff" opacity=".85"/>
-          <path d="M79 90 L83 104 L72 97Z" fill="#35b8ff" opacity=".85"/>
-        </svg>
-        <div class="rocket-exhaust"></div>
-        <span class="rocket-spark spark-one"></span>
-        <span class="rocket-spark spark-two"></span>
-        <span class="rocket-spark spark-three"></span>
-      </div>
-
-      <div class="loader-brand">DELUXE <span>SHADERS</span></div>
-      <div class="loader-subtitle">INITIALIZING LICENSE INTERFACE</div>
-
-      <div class="loading-track">
-        <div class="loading-progress"></div>
-      </div>
-
-      <div class="loading-info">
-        <span id="loading-status">INITIALIZING SYSTEM</span>
-        <span class="loading-percent" id="loading-percent">00%</span>
-      </div>
-
-      <div class="loading-dots">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
+<div class="loader-screen" id="loader">
+  <div class="loader-grid"></div>
+  <div class="loader-content">
+    <div class="rocket-scene">
+      <div class="rocket-ring ring-one"></div>
+      <div class="rocket-ring ring-two"></div>
+      <div class="rocket-glow"></div>
+      <svg class="rocket" viewBox="0 0 100 130" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="rocketBody" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#ffffff"/>
+            <stop offset="50%" stop-color="#a5d9ff"/>
+            <stop offset="100%" stop-color="#328dff"/>
+          </linearGradient>
+          <linearGradient id="rocketFin" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#36c5ff"/>
+            <stop offset="100%" stop-color="#0055ff"/>
+          </linearGradient>
+        </defs>
+        <path d="M50 5 C31 25 27 47 29 73 L71 73 C73 47 69 25 50 5Z" fill="url(#rocketBody)" stroke="#b9e6ff" stroke-width="1.5"/>
+        <path d="M50 5 C43 19 39 30 38 42 L62 42 C61 30 57 19 50 5Z" fill="#ffffff" opacity=".5"/>
+        <circle cx="50" cy="46" r="10" fill="#06162e" stroke="#42b8ff" stroke-width="3"/>
+        <circle cx="50" cy="46" r="5" fill="#58caff"/>
+        <path d="M30 59 C18 68 13 81 12 94 L31 80Z" fill="url(#rocketFin)"/>
+        <path d="M70 59 C82 68 87 81 88 94 L69 80Z" fill="url(#rocketFin)"/>
+        <path d="M38 75 L62 75 L60 91 L40 91Z" fill="#168bff"/>
+        <path d="M43 88 L50 111 L57 88Z" fill="#ffab45"/>
+        <path d="M46 89 L50 103 L54 89Z" fill="#fff4ad"/>
+      </svg>
+      <div class="rocket-flame"></div>
+      <span class="rocket-particle particle-one"></span>
+      <span class="rocket-particle particle-two"></span>
+      <span class="rocket-particle particle-three"></span>
     </div>
+
+    <div class="loader-brand">DELUXE <span>SHADERS</span></div>
+    <div class="loader-subtitle">INITIALIZING LICENSE INTERFACE</div>
+
+    <div class="loading-track">
+      <div class="loading-progress" id="loading-progress"></div>
+    </div>
+
+    <div class="loading-info">
+      <span id="loading-status">INITIALIZING SYSTEM</span>
+      <span id="loading-percent">00%</span>
+    </div>
+    <div class="loader-dots"><span></span><span></span><span></span></div>
   </div>
+</div>
 
-  <div class="page-shell page-hidden" id="page">
-    <main class="container">
+<div class="page-shell page-hidden" id="page">
 
-      <section class="hero">
-        <div class="eyebrow">
-          <span class="status-dot"></span>
-          OFFICIAL LICENSE DOCUMENT
-        </div>
+  <header class="site-header">
+    <a class="brand" href="https://deluxeshaders.blogspot.com/">
+      <span class="brand-icon">DS</span>
+      <span>DELUXE SHADERS</span>
+    </a>
+    <nav class="main-nav">
+      <a href="https://deluxeshaders.blogspot.com/">Home</a>
+      <a href="https://shahariyafx.github.io/deluxeshadersdownloads/">Downloads</a>
+      <a href="https://deluxeshaders.blogspot.com/#about">About</a>
+    </nav>
+  </header>
 
-        <h1>DELUXE<br><span>SHADERS</span></h1>
+  <main class="container">
 
-        <p class="hero-subtitle">OFFICIAL LICENSE</p>
+    <section class="hero">
+      <div class="eyebrow"><span class="status-dot"></span> OFFICIAL LICENSE DOCUMENT</div>
 
-        <p class="hero-copy">
-          The official terms for using and protecting original
-          Deluxe Shaders materials.
-        </p>
+      <h1>DELUXE<br><span>SHADERS</span></h1>
 
-        <div class="license-meta">
-          <span>VERSION 1.0</span>
-          <span class="meta-dot"></span>
-          <span>OCTOBER 2026</span>
-        </div>
+      <p class="hero-subtitle">OFFICIAL LICENSE</p>
 
-        <div class="hero-actions">
-          <a class="back-button" href="https://deluxeshaders.blogspot.com/">
-            <span>Back To Home</span>
-            <span class="button-arrow">↗</span>
-          </a>
-        </div>
+      <p class="hero-copy">
+        The official terms for using and protecting original Deluxe Shaders materials.
+      </p>
 
-        <div class="hero-decoration">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-      </section>
+      <div class="license-meta">
+        <span>VERSION 1.0</span>
+        <span class="meta-dot"></span>
+        <span>OCTOBER 2026</span>
+      </div>
 
-      <section class="license-section" id="license-terms">
-        <div class="section-heading">
-          <span class="section-kicker">LICENSE &amp; PROTECTION</span>
-          <h2>License Terms</h2>
-          <p>Read these terms before using Deluxe Shaders materials.</p>
-        </div>
-
-        <div class="license-grid">
-
-          <article class="license-card">
-            <div class="card-top">
-              <span class="card-icon">DS</span>
-              <span class="card-number">01 / OWNERSHIP</span>
-            </div>
-            <h3>Copyright Ownership</h3>
-            <p>
-              Original Deluxe Shaders materials remain the property
-              of their respective copyright holders.
-            </p>
-            <div class="card-bottom"><span></span> ORIGINAL MATERIALS</div>
-          </article>
-
-          <article class="license-card">
-            <div class="card-top">
-              <span class="card-icon">CN</span>
-              <span class="card-number">02 / COPYING</span>
-            </div>
-            <h3>No Unauthorized Copying</h3>
-            <p>
-              Do not copy, extract, reproduce, or reuse protected
-              source code or files without the required permission.
-            </p>
-            <div class="card-bottom"><span></span> CODE PROTECTION</div>
-          </article>
-
-          <article class="license-card">
-            <div class="card-top">
-              <span class="card-icon">SH</span>
-              <span class="card-number">03 / REMAKES</span>
-            </div>
-            <h3>Shader Remakes</h3>
-            <p>
-              Do not use protected Deluxe Shaders code as the basis
-              of another shader without authorization from its owner.
-            </p>
-            <div class="card-bottom"><span></span> ORIGINAL CODE ONLY</div>
-          </article>
-
-          <article class="license-card">
-            <div class="card-top">
-              <span class="card-icon">RD</span>
-              <span class="card-number">04 / SHARING</span>
-            </div>
-            <h3>Redistribution</h3>
-            <p>
-              Do not reupload, resell, or redistribute protected
-              materials as your own without permission.
-            </p>
-            <div class="card-bottom"><span></span> DISTRIBUTION RULES</div>
-          </article>
-
-          <article class="license-card">
-            <div class="card-top">
-              <span class="card-icon">PU</span>
-              <span class="card-number">05 / PERSONAL USE</span>
-            </div>
-            <h3>Personal Use</h3>
-            <p>
-              Using an officially released shader does not grant
-              ownership of its source code or other protected files.
-            </p>
-            <div class="card-bottom"><span></span> PERSONAL USE</div>
-          </article>
-
-          <article class="license-card">
-            <div class="card-top">
-              <span class="card-icon">PR</span>
-              <span class="card-number">06 / PERMISSIONS</span>
-            </div>
-            <h3>Permission Required</h3>
-            <p>
-              Obtain written permission from the relevant rights holder
-              before performing restricted uses of protected materials.
-            </p>
-            <div class="card-bottom"><span></span> WRITTEN AUTHORIZATION</div>
-          </article>
-
-        </div>
-      </section>
-
-      <section class="notice-panel">
-        <div class="notice-icon">i</div>
-        <div class="notice-content">
-          <span class="section-kicker">IMPORTANT INFORMATION</span>
-          <h2>Third-Party Materials</h2>
-          <p>
-            Third-party code, textures, assets, and components remain
-            subject to their respective licenses. This agreement applies
-            only to materials Deluxe Shaders owns or is authorized to license.
-          </p>
-        </div>
-      </section>
-
-      <section class="contact-panel">
-        <span class="section-kicker">OFFICIAL WEBSITE</span>
-        <h2>Deluxe Shaders</h2>
-        <p>Visit our official website for information about our shader projects.</p>
-        <a class="back-button contact-button" href="https://deluxeshaders.blogspot.com/">
-          <span>Visit Official Website</span>
+      <div class="hero-actions">
+        <a class="back-button" href="https://deluxeshaders.blogspot.com/">
+          <span>Back To Home</span>
           <span class="button-arrow">↗</span>
         </a>
-      </section>
+      </div>
 
-      <footer class="site-footer">
-        <div class="footer-line"></div>
-        <div class="footer-brand">DELUXE SHADERS</div>
-        <p>
-          © 2026 Deluxe Shaders. Rights in original materials remain
-          with their respective copyright holders.
-        </p>
-        <span class="footer-version">OFFICIAL LICENSE · V1.0</span>
-      </footer>
+      <div class="hero-decoration"><span></span><span></span><span></span></div>
+    </section>
 
-    </main>
-  </div>
+    <section class="license-section" id="license-terms">
+      <div class="section-heading">
+        <span class="section-kicker">LICENSE &amp; PROTECTION</span>
+        <h2>License Terms</h2>
+        <p>Read these terms before using Deluxe Shaders materials.</p>
+      </div>
 
-  <script>
-    (() => {
-      const loader = document.getElementById("loader");
-      const page = document.getElementById("page");
-      const status = document.getElementById("loading-status");
-      const percent = document.getElementById("loading-percent");
+      <div class="license-grid">
+        <article class="license-card">
+          <div class="card-top"><span class="card-icon">DS</span><span class="card-number">01 / OWNERSHIP</span></div>
+          <h3>Copyright Ownership</h3>
+          <p>Original Deluxe Shaders materials remain the property of their respective copyright holders.</p>
+          <div class="card-bottom"><span></span> ORIGINAL MATERIALS</div>
+        </article>
 
-      const messages = [
-        "INITIALIZING SYSTEM",
-        "LOADING VISUAL INTERFACE",
-        "PREPARING LICENSE DOCUMENT",
-        "SYSTEM READY"
-      ];
+        <article class="license-card">
+          <div class="card-top"><span class="card-icon">CN</span><span class="card-number">02 / COPYING</span></div>
+          <h3>No Unauthorized Copying</h3>
+          <p>Do not copy, extract, reproduce, or reuse protected source code or files without the required permission.</p>
+          <div class="card-bottom"><span></span> CODE PROTECTION</div>
+        </article>
 
-      let started = false;
+        <article class="license-card">
+          <div class="card-top"><span class="card-icon">SH</span><span class="card-number">03 / REMAKES</span></div>
+          <h3>Shader Remakes</h3>
+          <p>Do not use protected Deluxe Shaders code as the basis of another shader without authorization from its owner.</p>
+          <div class="card-bottom"><span></span> ORIGINAL CODE ONLY</div>
+        </article>
 
-      function startLoading() {
-        if (started) return;
-        started = true;
+        <article class="license-card">
+          <div class="card-top"><span class="card-icon">RD</span><span class="card-number">04 / SHARING</span></div>
+          <h3>Redistribution</h3>
+          <p>Do not reupload, resell, or redistribute protected materials as your own without permission.</p>
+          <div class="card-bottom"><span></span> DISTRIBUTION RULES</div>
+        </article>
 
-        const startTime = performance.now();
-        const duration = 3200;
+        <article class="license-card">
+          <div class="card-top"><span class="card-icon">PU</span><span class="card-number">05 / PERSONAL USE</span></div>
+          <h3>Personal Use</h3>
+          <p>Using an officially released shader does not grant ownership of its source code or other protected files.</p>
+          <div class="card-bottom"><span></span> PERSONAL USE</div>
+        </article>
 
-        function update(now) {
-          const elapsed = now - startTime;
-          const progress = Math.min(elapsed / duration, 1);
-          const eased = 1 - Math.pow(1 - progress, 3);
-          const value = Math.round(eased * 100);
+        <article class="license-card">
+          <div class="card-top"><span class="card-icon">PR</span><span class="card-number">06 / PERMISSIONS</span></div>
+          <h3>Permission Required</h3>
+          <p>Obtain written permission from the relevant rights holder before performing restricted uses of protected materials.</p>
+          <div class="card-bottom"><span></span> WRITTEN AUTHORIZATION</div>
+        </article>
+      </div>
+    </section>
 
-          percent.textContent = String(value).padStart(2, "0") + "%";
+    <section class="notice-panel">
+      <div class="notice-icon">i</div>
+      <div class="notice-content">
+        <span class="section-kicker">IMPORTANT INFORMATION</span>
+        <h2>Third-Party Materials</h2>
+        <p>Third-party code, textures, assets, and components remain subject to their respective licenses. This agreement applies only to materials Deluxe Shaders owns or is authorized to license.</p>
+      </div>
+    </section>
 
-          const messageIndex = Math.min(
-            Math.floor(progress * messages.length),
-            messages.length - 1
-          );
+    <section class="contact-panel">
+      <span class="section-kicker">OFFICIAL WEBSITE</span>
+      <h2>Deluxe Shaders</h2>
+      <p>Visit our official website for information about our shader projects.</p>
+      <a class="back-button" href="https://deluxeshaders.blogspot.com/">
+        <span>Visit Official Website</span>
+        <span class="button-arrow">↗</span>
+      </a>
+    </section>
 
-          status.textContent = messages[messageIndex];
+    <footer class="site-footer">
+      <div class="footer-line"></div>
+      <div class="footer-brand">DELUXE SHADERS</div>
+      <p>© 2026 Deluxe Shaders. Rights in original materials remain with their respective copyright holders.</p>
+      <span class="footer-version">OFFICIAL LICENSE · V1.0</span>
+    </footer>
 
-          if (progress < 1) {
-            requestAnimationFrame(update);
-          } else {
-            window.setTimeout(() => {
-              page.classList.remove("page-hidden");
-              page.classList.add("page-visible");
-              loader.classList.add("loader-exit");
+  </main>
+</div>
 
-              window.setTimeout(() => {
-                loader.remove();
-              }, 850);
-            }, 180);
-          }
-        }
+<script>
+(function () {
+  const loader = document.getElementById("loader");
+  const page = document.getElementById("page");
+  const progressBar = document.getElementById("loading-progress");
+  const status = document.getElementById("loading-status");
+  const percent = document.getElementById("loading-percent");
 
-        requestAnimationFrame(update);
-      }
+  const messages = [
+    "INITIALIZING SYSTEM",
+    "LOADING VISUAL INTERFACE",
+    "PREPARING LICENSE DOCUMENT",
+    "SYSTEM READY"
+  ];
 
-      if (document.readyState === "complete") {
-        startLoading();
-      } else {
-        window.addEventListener("load", startLoading, { once: true });
-        window.setTimeout(startLoading, 1800);
-      }
-    })();
-  </script>
+  const duration = 3400;
+  let startedAt = null;
+  let finished = false;
+
+  function finishLoading() {
+    if (finished) return;
+    finished = true;
+
+    progressBar.style.width = "100%";
+    percent.textContent = "100%";
+    status.textContent = "SYSTEM READY";
+
+    page.classList.remove("page-hidden");
+    page.classList.add("page-visible");
+    loader.classList.add("loader-exit");
+
+    setTimeout(function () {
+      loader.remove();
+    }, 900);
+  }
+
+  function updateLoading(now) {
+    if (startedAt === null) startedAt = now;
+
+    const elapsed = now - startedAt;
+    const progress = Math.min(elapsed / duration, 1);
+    const eased = 1 - Math.pow(1 - progress, 3);
+    const value = Math.round(eased * 100);
+
+    progressBar.style.width = value + "%";
+    percent.textContent = String(value).padStart(2, "0") + "%";
+
+    const index = Math.min(
+      Math.floor(progress * messages.length),
+      messages.length - 1
+    );
+    status.textContent = messages[index];
+
+    if (progress < 1) {
+      requestAnimationFrame(updateLoading);
+    } else {
+      setTimeout(finishLoading, 180);
+    }
+  }
+
+  requestAnimationFrame(updateLoading);
+  setTimeout(finishLoading, 5200);
+})();
+</script>
 
 </body>
 </html>
